@@ -72,8 +72,8 @@ void dump(int netif_idx, const char* data, size_t len, int out, int success) {
                       IPAddress(172, 217, 28, 254),
                       IPAddress(255, 255, 255, 0));
     // Begin Access Point
-    //WiFi.softAP(AP_SSID, AP_PASS);
-    WiFi.softAP(AP_SSID, AP_PASS, AP_CHANNEL, AP_HIDDEN, AP_MAX_CON);
+    WiFi.softAP(AP_SSID, AP_PASS);
+    //WiFi.softAP(AP_SSID, AP_PASS, AP_CHANNEL, AP_HIDDEN, AP_MAX_CON);
     WiFi.softAPmacAddress(macAddr);
     Serial.printf("\nAP: %s : %s\n",
                   AP_SSID,
