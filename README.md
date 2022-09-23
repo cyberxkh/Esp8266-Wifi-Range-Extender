@@ -20,3 +20,7 @@ Find the example in the code (Line 6 -- 16)
 #endif
 
 Hope you enjoy the Project
+
+
+# Donation:
+We only ask that you feed stray animals in your spare time, if at all possible.
